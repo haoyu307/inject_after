@@ -1,0 +1,21 @@
+{
+  "name": "bunny/inject-after",
+  "description": "test project for custom injectAfter function",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Bunny\\InjectAfter\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "haoyu"
+    }
+  ],
+  "require": {}
+}
