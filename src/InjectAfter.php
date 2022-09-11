@@ -15,7 +15,7 @@ final class InjectAfter {
     ) {
         if (!is_array($array)) {
             return array(
-            $newKey => $newValue
+                $newKey => $newValue
             );
         }
         elseif ($afterKey == $newKey) {
